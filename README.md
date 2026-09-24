@@ -9,7 +9,7 @@
 
 ---
 
-- 🚀 **6. Advanced DSA** → Topic-wise playlists coming soon
+- 🚀 **6. Advanced DSA** → No specific Playlist [Mostly follow Striver]
 
 ---
 
@@ -21,7 +21,43 @@
 **➕ Extra Things in Java**
 
 - 🧪 **8. JUnit** → [Link](https://youtu.be/laPmEW913_k?si=UW_kBzb3GRns7uob)
-- 🍃 **9. Backend: Spring Boot** → Coming soon
+- 🍃 **9. Backend: Spring Boot** →
+  - [Link 1](https://youtube.com/playlist?list=PL6W8uoQQ2c60g6_fcjDCLHSx1LBeVYqyZ&si=5QGhv937FFYwnEAb)
+  - [Link 2](https://youtube.com/playlist?list=PLUcsbZa0qzu0gVRFlVfscqjD84TqMssOt&si=4BjFs2NAZVKZ9cEu)
+
+---
+
+# 🗂️ Topics
+
+## 1. Basic DSA
+
+1. **Array** → Operations in Array, Largest Element, Second Largest Element, Reverse an Array, Check if Array is Sorted, Remove Duplicates, Left Rotate Array, Move Zeros to End
+2. **Recursion** → Natural Number, Palindrome Number, Sum of Digits, Rope Cutting, Generate Subsets _(no need Tower of Hanoi)_
+3. **Hashing** → Only theory, no need to solve any questions
+4. **Searching** → Simple Search, Binary Search [Recursion + Iterative], Ternary Search _(if want)_
+5. **Sorting** → 5 main sorts + Hash Sort _(only see, no need to remember)_
+6. **Linked List**
+   - i. Singly → Traverse, Search, Insert, Delete, Reverse
+   - ii. Doubly → Insert, Delete, Reverse
+   - iii. Circular → Traverse, Insert, Delete
+7. **Stack** → Implement using Array and using Linked List
+8. **Queue** → Using Array, using Linked List
+9. **Dequeue** → Array-based Implementation
+10. **Tree** → Traversal, Level Order, Max, Size, Height
+11. **BST** → Search, Insert, Deletion, Ceil, Floor
+12. **Heap** → Insertion and Heapify _(properly understand)_
+
+## 2. Advanced DSA
+
+🔄 _Will Update Soon_
+
+## 3. Low Level Design
+
+🔄 _Will Update Soon_
+
+## 4. High Level Design
+
+🔄 _Will Update Soon_
 
 ---
 
