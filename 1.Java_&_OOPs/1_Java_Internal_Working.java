@@ -48,4 +48,11 @@ Program runs
         }
 
         > java Main Hello World ↵
+
+
+
+// JDK JRE JVM 
+// Java Developmen Kit, Java Virtual Machine, Java Runtime Environment
+// JDK always have JVM and JRE and in client machine / Prod you mostly see JRE and JVM
+
         
