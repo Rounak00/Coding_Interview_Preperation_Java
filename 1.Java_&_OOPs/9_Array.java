@@ -83,7 +83,7 @@ public class Main {
 
 
 
-// Enhanced for loop
+// Enhanced for loop (for each loop)
 // 1D Array
 for (int num : numbers) {
     System.out.println(num);
@@ -96,3 +96,4 @@ for (int[] row : matrix) {
     }
     System.out.println();
 }
+
