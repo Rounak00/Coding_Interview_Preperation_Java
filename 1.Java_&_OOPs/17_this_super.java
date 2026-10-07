@@ -1,4 +1,4 @@
-// super — Parent Class : super refers to the parent class object/members.
+// super - Parent Class : super refers to the parent class object/members.
 // when we create a object it always call sub and parent class both constructor
 class Parent {
     Parent() { System.out.println("Parent Constructor"); }

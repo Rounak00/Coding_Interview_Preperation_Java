@@ -1,5 +1,5 @@
 //A Wrapper Class is a Java class that converts a primitive data type into an object.
-// Primitive → Wrapper
+// Primitive - Wrapper
 // Primitive	Wrapper Class
 // byte	Byte
 // short	Short
@@ -19,7 +19,7 @@
 
 
 /**
- * Boxing : Converting primitive → wrapper object is called Boxing. similarly unboxing also there.
+ * Boxing : Converting primitive - wrapper object is called Boxing. similarly unboxing also there.
  * int x = 10;
  * Integer obj = Integer.valueOf(x); |or,| Integer obj = x;
  * assign directly and not using intValue() or valueOf() function java do it as auto-boxing & auto-unboxing
@@ -40,7 +40,7 @@ public class Main {
     public static void main(String[] args) {
 
         // 1. BOXING
-        // Primitive → Wrapper manually
+        // Primitive - Wrapper manually
         int a = 10;
         Integer b = Integer.valueOf(a);
 
@@ -50,7 +50,7 @@ public class Main {
 
 
         // 2. UNBOXING
-        // Wrapper → Primitive manually
+        // Wrapper - Primitive manually
         Integer c = Integer.valueOf(20);
         int d = c.intValue();
 
@@ -60,7 +60,7 @@ public class Main {
 
 
         // 3. AUTOBOXING
-        // Primitive → Wrapper automatically
+        // Primitive - Wrapper automatically
         int e = 30;
         Integer f = e;
 
@@ -70,7 +70,7 @@ public class Main {
 
 
         // 4. AUTO-UNBOXING
-        // Wrapper → Primitive automatically
+        // Wrapper - Primitive automatically
         Integer g = 40;
         int h = g;
 

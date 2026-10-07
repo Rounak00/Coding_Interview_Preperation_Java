@@ -1,13 +1,13 @@
 // Upcasting and Downcasting in Java : Both are related to inheritance + polymorphism.
 
 //         Animal
-//           ▲
-//           │
+//           ^
+//           |
 //          Dog
 
 // Dog is an Animal.
 
-// Upcasting ⬆️ : Child object → Parent reference
+// Upcasting ⬆️ : Child object - Parent reference
 class Animal {
     void sound() {
         System.out.println("Animal sound");
@@ -30,7 +30,7 @@ class Main {
 }
 
 
-// Downcasting ⬇️ : Parent reference → Child reference
+// Downcasting ⬇️ : Parent reference - Child reference
 
 Animal a = new Dog();
 Dog d = (Dog) a;   // Downcasting

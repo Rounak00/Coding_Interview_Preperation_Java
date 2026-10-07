@@ -1,17 +1,17 @@
 /**
- * Java Access Modifiers — The 4-Door Rule
+ * Java Access Modifiers - The 4-Door Rule
    Think of a class as a house and its members as things inside the house.
 Java gives you 4 levels of doors:
 
                     ACCESS
-                       │
+                       |
         ┌──────────────┼──────────────┐──────────────┐
-        │              │              │
+        |              |              |
      private       default       protected           public
-        │              │              │                │
+        |              |              |                |
     🔴 Owner       🟡 Family       🟠 Relatives   🟢 Everyone
-        only        / package        + children         │
-                                                        │
+        only        / package        + children         |
+                                                        |
                                                     EVERYWHERE
  */
 

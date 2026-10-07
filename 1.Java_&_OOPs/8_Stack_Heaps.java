@@ -23,11 +23,11 @@ public class Main {
 STACK                  HEAP
 ------                 ------
 x = 10                 Car object
-c ───────────────────> color = "Red"
-x → local variable → Stack
-c → reference variable → Stack
-new Car() → object → Heap
-color → instance variable inside object → Heap
+c -------------------> color = "Red"
+x > local variable > Stack
+c > reference variable > Stack
+new Car() > object > Heap
+color > instance variable inside object > Heap
 
 Easy rule:
 Stack = execution & local data | Heap = objects

@@ -1,8 +1,8 @@
 // Encapsulation in Java
 // Encapsulation means wrapping data (variables) and methods together inside a class and controlling direct access to that data.
 // Usually:
-// Variables → private
-// Access → public getter/setter methods
+// Variables - private
+// Access - public getter/setter methods
 
 class Student {
     // Private variables - cannot be accessed directly outside class

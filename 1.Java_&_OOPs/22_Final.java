@@ -1,10 +1,10 @@
 // final
-//  │
-//  ├── variable → 🔒 cannot reassign
-//  │
-//  ├── method   → 🔒 cannot override
-//  │
-//  └── class    → 🔒 cannot extend
+//  |
+//  |-- variable > 🔒 cannot reassign
+//  |
+//  |-- method   > 🔒 cannot override
+//  |
+//  |-- class    > 🔒 cannot extend
 
 
 // for method example 

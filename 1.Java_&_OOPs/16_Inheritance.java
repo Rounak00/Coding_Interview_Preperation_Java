@@ -70,7 +70,7 @@ public class Main {
 }
 
 
-//4. Multiple Inheritance — Not Supported with Classes : Java does not allow this:
+//4. Multiple Inheritance - Not Supported with Classes : Java does not allow this:
 class A {}
 class B {}
 

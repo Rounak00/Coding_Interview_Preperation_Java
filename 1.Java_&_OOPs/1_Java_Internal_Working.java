@@ -2,25 +2,25 @@ JDK = Java Development Kit > It's the complete toolkit you need to develop and r
 
 
 JDK contains
-├── JRE         → Provides the JVM + required Java libraries to run Java applications.
-│   └── JVM     → Executes Java bytecode (.class) on your machine.
-├── javac       → Java compiler
-├── java        → Runs Java programs
-├── javadoc     → Generates documentation
-└── other tools
+|-- JRE         -> Provides the JVM + required Java libraries to run Java applications.
+|   |-- JVM     -> Executes Java bytecode (.class) on your machine.
+|-- javac       -> Java compiler
+|-- java        -> Runs Java programs
+|-- javadoc     -> Generates documentation
+|-- other tools
 The important distinction
 
 JRE + development tools, especially the compiler (javac).
 Used when you're actually writing Java code.
 Simple flow
 Main.java
-   ↓
-javac Main.java       ← JDK compiler
-   ↓
+   |
+javac Main.java       < JDK compiler
+   |
 Main.class
-   ↓
-java Main             ← JVM
-   ↓
+   |
+java Main             < JVM
+   | 
 Program runs
 
 

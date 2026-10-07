@@ -21,8 +21,8 @@ Interfaces
 Enums
 
 /*
-* Primitive → stores the actual value
-* Reference → stores a reference to an object in memory.
+* Primitive : stores the actual value
+* Reference : stores a reference to an object in memory.
 */
 
 //Usage
@@ -45,8 +45,8 @@ float 7 = 8.6;
   float c = 10.5f;      // Float literal (Defailt is always double)
 
 // Type Conversions
-// Automatic : Smaller type → larger type
-// Manual :  larger type → Smaller type  (Casting)
+// Automatic : Smaller type - larger type
+// Manual :  larger type - Smaller type  (Casting)
 //           in type casting you may loose some values 
     double a = 10.5;
     int b = (int) a; //like here we loose precision values

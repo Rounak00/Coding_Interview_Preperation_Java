@@ -1,8 +1,8 @@
 // Polymorphism = "One thing, many forms."
 // In Java, there are 2 types:
 // Polymorphism
-// ├── 1. Compile-time  → Method Overloading
-// └── 2. Runtime       → Method Overriding
+// |-- 1. Compile-time  > Method Overloading
+// |-- 2. Runtime       > Method Overriding
 
 
 //Dynamic Method Dispatch = Runtime Polymorphism. They are essentially the same concept in Java.

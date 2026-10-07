@@ -63,7 +63,7 @@ Main method
 ** // Class.forName("className"); //throws ClassNotFound Exception thats it, it will load the class.
 */
 
-// static final — Constants : One of the most common uses of static is with final.
+// static final - Constants : One of the most common uses of static is with final.
 class MathConstants {
    static final double PI = 3.14159;
 }
