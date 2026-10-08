@@ -75,6 +75,7 @@ class Main {
         int e = Integer.parseInt(st.nextToken());
 
         System.out.println(a + b + c + d + e);
+        br.close();
     }
 }
 
@@ -89,5 +90,6 @@ class Main {
 
         int c = in.read();
         System.out.println((char)c);
+        in.close();
     }
 }
