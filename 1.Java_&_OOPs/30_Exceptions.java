@@ -74,6 +74,23 @@ if (age < 18) {
 //throws -- declares that a method may throw an exception
 void test() throws IOException { ... }
 void readFile() throws IOException, SQLException { ... }
+// Example
+class Main {
+
+    static void readFile() throws IOException {
+        FileReader file = new FileReader("test.txt");
+        file.close();
+    }
+
+    public static void main(String[] args) {
+
+        try {
+            readFile();
+        } catch (IOException e) {
+            System.out.println("File error: " + e.getMessage());
+        }
+    }
+}
 
 
 //Custom Exceptions  : A custom exception is an exception class that you create yourself for your application's specific situation.
