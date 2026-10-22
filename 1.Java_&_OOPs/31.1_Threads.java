@@ -71,6 +71,7 @@ public class Main {
 
         t1.start();
         t2.start();
+         // both auto prallel based on JVM
     }
 }
 
@@ -92,3 +93,103 @@ Thread.sleep() pauses the currently executing thread for a specified duration.
 - Sleeping does not release any locks the thread holds.
 */
 
+class ThreadOne extends Thread {
+    @Override
+    public void run() {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Thread One: " + i);
+
+            try {
+                Thread.sleep(1000); // Pause for 1 second
+            } catch (InterruptedException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+}
+
+class ThreadTwo extends Thread {
+    @Override
+    public void run() {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Thread Two: " + i);
+
+            try {
+                Thread.sleep(500); // Pause for 0.5 seconds
+            } catch (InterruptedException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        ThreadOne t1 = new ThreadOne();
+        ThreadTwo t2 = new ThreadTwo();
+
+        // Set thread priorities
+        t1.setPriority(Thread.MAX_PRIORITY); // 10
+        t2.setPriority(Thread.MIN_PRIORITY); // 1
+        //t1.setPriority(8); // Custom priority
+        //t2.setPriority(3); // Custom priority
+
+        System.out.println("T1 Priority: " + t1.getPriority());
+        System.out.println("T2 Priority: " + t2.getPriority());
+
+        t1.start();
+        t2.start();
+    }
+}
+
+/**
+ * Why need Runnable when we have Thread ?
+ * The main reason is Java supports extending only one class, but you can implement multiple interfaces.
+ * Here, your class already extends Thread. If you also need to extend another class, 
+ * you cannot do it because Java doesn't support multiple class inheritance.
+ * class MyTask extends OtherClass, Thread { } // Invalid
+ * 
+ * 
+ * Thats why need runnable.
+ */
+class MyTask extends OtherClass implements Runnable {
+    public void run() {
+        System.out.println("Task running");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Thread t1 = new Thread(new MyTask());
+        t1.start();
+    }
+}
+
+// Runnable with anonymous class
+public class Main {
+    public static void main(String[] args) {
+
+        Runnable task = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("Thread is running");
+            }
+        };
+
+        Thread t1 = new Thread(task);
+        t1.start();
+    }
+}
+// Runnable with lambda expression 
+public class Main {
+    public static void main(String[] args) {
+
+        Runnable task = () -> {
+            System.out.println("Thread is running");
+        };
+
+        Thread t1 = new Thread(task);
+        t1.start();
+        // more shorter => new Thread(() -> System.out.println("Thread is running")).start();
+    }
+}
