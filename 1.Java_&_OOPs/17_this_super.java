@@ -1,4 +1,10 @@
 // super - Parent Class : super refers to the parent class object/members.
+/**
+     * Uses of super in Java
+    1. Access parent class variables when the parent and child have variables with the same name.
+    2. Call parent class methods when a method is overridden in the child class.
+    3. Call parent class constructors using super() or super(arguments).
+ */
 // when we create a object it always call sub and parent class both constructor
 class Parent {
     Parent() { System.out.println("Parent Constructor"); }

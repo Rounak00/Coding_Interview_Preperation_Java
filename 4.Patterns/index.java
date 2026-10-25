@@ -61,6 +61,28 @@ class Main {
     }
 }
 
+/*
+ ***** 
+  **** 
+   *** 
+    ** 
+     *  
+*/
+
+class Main {
+    static void printStar(int an){
+        for(int i=1; i<=5; i++){
+            for(int j=1;j<=i-1;j++){ System.out.print(" ");}
+            for (int j = 1; j <= an-i+1; j++) { System.out.print("*"); }
+            System.out.println(" ");
+        }
+    }
+    public static void main(String[] args) {
+        printStar(5);
+    }
+}
+
+
 
 /*
 1  
